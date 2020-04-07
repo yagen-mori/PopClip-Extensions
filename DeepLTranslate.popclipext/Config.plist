@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>deepl.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>DeepL-Translate</string>
+            <key>AppleScript File</key>
+            <string>appstart.applescript</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Start DeepL Translation Electron App</string>
+	<key>Extension Identifier</key>
+	<string>com.yagen.deepl-translate</string>
+	<key>Extension Name</key>
+	<string>DeepL-Translate</string>
+</dict>
+</plist>
